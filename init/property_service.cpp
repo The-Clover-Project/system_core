@@ -1416,6 +1416,7 @@ static void SetSafetyNetProps() {
     InitPropertySet("ro.boot.vbmeta.device_state", "locked");
     InitPropertySet("ro.boot.verifiedbootstate", "green");
     InitPropertySet("ro.boot.veritymode", "enforcing");
+    InitPropertySet("ro.build.tags", "release-keys");
 
 #ifndef ENG_BUILD
     // Spoof non-eng builds (such as userdebug) to user
